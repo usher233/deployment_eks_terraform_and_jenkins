@@ -16,3 +16,6 @@ Before you begin, ensure you have the following:
 ## Showcases
 
 ![d89dd0d1e3ebe33789978f5685adbfac](https://github.com/usher233/deployment_eks_terraform_and_jenkins/assets/87315603/5d796ded-fdca-4ff9-8cc3-9e7fdb060cbc)
+
+![image](https://github.com/usher233/deployment_eks_terraform_and_jenkins/assets/87315603/0b66a9a7-ef41-42c6-b78d-127b66d5e6a2)
+
