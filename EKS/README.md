@@ -1,7 +1,7 @@
 # Real-time Detection and Auto-Deployment for Configuration Changes on Github Using Jenkins
 
 # Files Explaination
-- Example deployment/service configs in Kubernets folder
+- Example deployment/service configs in Kubernetes folder
 - Pipeline for Jenkins in Jenkinsfile
 
 # Showcase:
