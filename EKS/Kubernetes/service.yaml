@@ -1,1 +1,27 @@
-#TO BE ADDED
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-table-service
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 80
+  selector:
+    app: user-table-frontend
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-table-api-service
+spec:
+  type: ClusterIP
+  ports:
+    - port: 5000
+      protocol: TCP
+      targetPort: 5000
+  selector:
+    app: user-table-api
