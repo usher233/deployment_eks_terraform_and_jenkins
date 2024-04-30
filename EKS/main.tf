@@ -51,4 +51,9 @@ module "eks" {
       instance_type = var.instance_type
     }
   }
+
+  tags ={
+    Environment = "dev"
+    Terraform = "true"
+  }
 }
